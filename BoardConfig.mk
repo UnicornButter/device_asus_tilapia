@@ -38,5 +38,8 @@ TARGET_RECOVERY_UPDATER_EXTRA_LIBS := libIMCdownload libPrgHandler
 
 TARGET_RELEASETOOLS_EXTENSIONS := device/asus/tilapia
 
+TARGET_KERNEL_SOURCE = kernel/asus/grouper
+TARGET_KERNEL_CONFIG = faux_grouper_defconfig
+
 -include vendor/asus/tilapia/BoardConfigVendor.mk
 include device/asus/grouper/BoardConfigCommon.mk
